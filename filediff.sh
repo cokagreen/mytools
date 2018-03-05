@@ -7,7 +7,7 @@ getfile(){
 	listlen=${#filelist[*]}
 	if [ $listlen -eq 1 ]
 	then
-                file=${filelist[0]}
+        file=${filelist[0]}
         elif [ $listlen -gt 1 ]
 	then
 		echo "$1 has ${#filelist[*]} files named \"$2\", please choose one."
